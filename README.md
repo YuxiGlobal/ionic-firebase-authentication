@@ -24,6 +24,7 @@ The idea is to have a fully functional authentication starter template, we're st
   - [ ] Create the Password Reset Page.
   - [ ] Create the Authentication Guard.
   - [ ] Protect Internal Routes with the AuthGuard.
+  - [ ] Create documentation for the email & password authentication module.
 - Anonymous Authentication.
   - [ ] Enable Anonymous Authentication.
   - [ ] Enable feature to link an anonymous account to a "full" account.

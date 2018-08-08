@@ -33,6 +33,7 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 
-# Ignore Native platforms
+# Ignore Native platforms and environment files
 android/
 ios/
+credentials.ts
