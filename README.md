@@ -14,6 +14,22 @@ The idea is to have a fully functional authentication starter template, we're st
 
 <!-- Will eventually add an image of the landing page here -->
 
+## Currently Working on
+
+- Email and Password Authentication
+  - [ ] Create the Email Authentication Service.
+  - [ ] Create the Landing Page.
+  - [ ] Create the Login Page
+  - [ ] Create the Signup Page.
+  - [ ] Create the Password Reset Page.
+  - [ ] Create the Authentication Guard.
+  - [ ] Protect Internal Routes with the AuthGuard.
+- Anonymous Authentication.
+  - [ ] Enable Anonymous Authentication.
+  - [ ] Enable feature to link an anonymous account to a "full" account.
+- Social Authentication.
+  - [ ] Think about which social providers are going to be included in the app.
+
 ## Installation
 
 There's no straightforward way to install 3rd party templates from the Ionic CLI, so the best way to 'install' this template would be to copy the project and run `npm install`.
