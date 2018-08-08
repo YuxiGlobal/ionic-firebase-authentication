@@ -2,71 +2,90 @@
 
 > This is an authentication template for apps built with Ionic and Firebase.
 
-## Pending Edit
+The idea is to have a fully functional authentication starter template, we're still thinking through the features it should have, but for now this is what we're thinking:
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+- Email & Password Traditional Authentication.
+- Google SSO.
+- Anonymous Authentication.
+- Passwordless Authentication (_For the web version and need to check availability for the native app_).
+- Another form of 3rd party authentication (_Github, Twitter, Facebook?_).
+- The "_Forgot your password?_" workflow.
+- A profile page for the user to edit their data. (_Or add new authentication workflows_).
 
-One to two paragraph statement about your product and what it does.
-
-![](header.png)
+<!-- Will eventually add an image of the landing page here -->
 
 ## Installation
 
-OS X & Linux:
+There's no straightforward way to install 3rd party templates from the Ionic CLI, so the best way to 'install' this template would be to copy the project and run `npm install`.
+
+For that, open your terminal, navigate to the folder you keep your projects and type:
 
 ```sh
-npm install my-crazy-module --save
+git clone git@github.com:YuxiGlobal/ionic-firebase-authentication.git
 ```
 
-Windows:
+Once it's done cloning the project, navigate to the project's folder and run `npm install`.
 
 ```sh
-edit autoexec.bat
+cd ionic-firebase-authentication
+npm install
 ```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+**PENDING**
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+The idea is to keep all the documentation inside the `docs/` folder.
 
-## Development setup
+## Capacitor
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+We're going to be using **Capacitor** as a replacement for Cordova. Capacitor isn't enabled by default, so there are a few things we need to do. Open your terminal and type:
 
 ```sh
-make install
-npm test
+ionic integrations enable capacitor
+```
+
+When it's done, make a build of your project:
+
+```sh
+ionic build
+```
+
+It will generate the build inside the `www/` folder. Now you can add the platforms (_remember that you need a Mac with XCode installed to build for iOS_)
+
+```sh
+ionic cap add android
+ionic cap add ios
+```
+
+And lastly, we need to sync everything inside the `www/` in our app platforms:
+
+```sh
+ionic cap sync
 ```
 
 ## Release History
 
-- 0.2.1
-  - CHANGE: Update docs (module code remains unchanged)
-- 0.2.0
-  - CHANGE: Remove `setDefaultXYZ()`
-  - ADD: Add `init()`
-- 0.1.1
-  - FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-- 0.1.0
-  - The first proper release
-  - CHANGE: Rename `foo()` to `bar()`
 - 0.0.1
   - Work in progress
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+This project is maintained by [Yuxi Global](http://twitter.com/YuxiGlobal), if you have any questions you can get in touch with
 
-Distributed under the XYZ license. See `LICENSE` for more information.
+Jorge Vergara – [@javebratt](https://twitter.com/javebratt) – jorge.vergara@yuxiglobal.com
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+<!-- Distributed under the XYZ license. See `LICENSE` for more information. -->
+
+[https://github.com/javebratt](https://github.com/javebratt/)
 
 ## Contributing
 
-1.  Fork it (<https://github.com/yourname/yourproject/fork>)
+First of all, thank you for the help :-)
+
+Best way to contribute (_with new features, bug fixes, typo fixes, etc_) is to:
+
+1.  Fork the repo (<https://github.com/YuxiGlobal/ionic-firebase-authentication/fork>)
 2.  Create your feature branch (`git checkout -b feature/fooBar`)
 3.  Commit your changes (`git commit -am 'Add some fooBar'`)
 4.  Push to the branch (`git push origin feature/fooBar`)
@@ -74,9 +93,10 @@ Distributed under the XYZ license. See `LICENSE` for more information.
 
 <!-- Markdown link & img dfn's -->
 
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+<!-- [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/datadog-metrics
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+ -->
