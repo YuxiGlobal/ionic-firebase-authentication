@@ -17,7 +17,7 @@ The idea is to have a fully functional authentication starter template, we're st
 ## Currently Working on
 
 - Email and Password Authentication
-  - [ ] Create the Email Authentication Service.
+  - [x] Create the Email Authentication Service.
   - [ ] Create the Landing Page.
   - [ ] Create the Login Page
   - [ ] Create the Signup Page.
