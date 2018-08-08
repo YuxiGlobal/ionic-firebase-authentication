@@ -91,7 +91,7 @@ This project is maintained by [Yuxi Global](http://twitter.com/YuxiGlobal), if y
 
 Jorge Vergara – [@javebratt](https://twitter.com/javebratt) – jorge.vergara@yuxiglobal.com
 
-<!-- Distributed under the XYZ license. See `LICENSE` for more information. -->
+Distributed under the MIT license. See [LICENSE](https://opensource.org/licenses/MIT) for more information.
 
 [https://github.com/javebratt](https://github.com/javebratt/)
 
