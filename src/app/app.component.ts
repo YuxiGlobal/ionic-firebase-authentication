@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { Plugins } from '@capacitor/core';
+const { StatusBar, SplashScreen } = Plugins;
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
@@ -9,5 +12,12 @@ export class AppComponent {
     this.initializeApp();
   }
 
-  initializeApp() {}
+  initializeApp() {
+    SplashScreen.hide().catch(error => {
+      console.warn(error);
+    });
+    StatusBar.hide().catch(error => {
+      console.warn(error);
+    });
+  }
 }
