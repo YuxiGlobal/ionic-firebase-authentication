@@ -23,7 +23,7 @@ The idea is to have a fully functional authentication starter template, we're st
   - [ ] Create the Signup Page.
   - [ ] Create the Password Reset Page.
   - [ ] Create the Authentication Guard.
-  - [ ] Protect Internal Routes with the AuthGuard.
+  - [ ] Create an Auth Guard to Protect Internal Routes.
   - [ ] Create documentation for the email & password authentication module.
 - Anonymous Authentication.
   - [ ] Enable Anonymous Authentication.
@@ -88,13 +88,11 @@ ionic cap sync
 
 ## Meta
 
-This project is maintained by [Yuxi Global](http://twitter.com/YuxiGlobal), if you have any questions you can get in touch with
+This project is maintained by [Yuxi Global](http://twitter.com/YuxiGlobal), if you have any questions you can get in touch with:
 
-Jorge Vergara – [@javebratt](https://twitter.com/javebratt) – jorge.vergara@yuxiglobal.com
+- Jorge Vergara – [@javebratt](https://twitter.com/javebratt) – jorge.vergara@yuxiglobal.com - [https://github.com/javebratt](https://github.com/javebratt/)
 
 Distributed under the MIT license. See [LICENSE](https://opensource.org/licenses/MIT) for more information.
-
-[https://github.com/javebratt](https://github.com/javebratt/)
 
 ## Contributing
 
