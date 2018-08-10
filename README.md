@@ -18,12 +18,11 @@ The idea is to have a fully functional authentication starter template, we're st
 
 - Email and Password Authentication
   - [x] Create the Email Authentication Service.
-  - [ ] Create the Landing Page.
+  - [x] Create the Landing Page.
   - [ ] Create the Login Page
   - [ ] Create the Signup Page.
   - [ ] Create the Password Reset Page.
-  - [ ] Create the Authentication Guard.
-  - [ ] Create an Auth Guard to Protect Internal Routes.
+  - [x] Create an Auth Guard to Protect Internal Routes.
   - [ ] Create documentation for the email & password authentication module.
 - Anonymous Authentication.
   - [ ] Enable Anonymous Authentication.
